@@ -21,7 +21,6 @@ module.exports = function(source) {
 	// get mixin name from source
 	var result = source.match(mixinRegex);
 	if(result[1]) {
-		console.log(generateCode(source, result[1]))
 		return generateCode(source, result[1]);
 	}
 
