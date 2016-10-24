@@ -1,2 +1,2 @@
 # jademixin-loader
-Converts a jade file with a mixin into template that can be invoked through jade loader
+Loader for webpack that converts a jade mixin into template that can be invoked through jade loader
